@@ -10,7 +10,7 @@ interface User {
   
     if (users.has(newUser.id)) {
       const updatedUser = { ...users.get(newUser.id)!, name: "Jeffry Leon" };
-      users.set(newUser.id, newUser);
+      users.set(newUser.id, updatedUser);
 
     }
 
