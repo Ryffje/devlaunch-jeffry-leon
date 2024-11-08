@@ -23,7 +23,7 @@ function isValidExpression(s: string): boolean {
         
     }
 
-    return stack.length === 0;
+    return stack.length ===
 }
 
 console.log(isValidExpression("({[]})"));
