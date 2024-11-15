@@ -23,7 +23,7 @@ class Queue <T> {
 
 const queue = new Queue<number>();
 
-console.log("Before queueing: ", queue.isEmpty())
+console.log("Before enqueueing: ", queue.isEmpty())
 
 queue.enqueue(1);
 queue.enqueue(2);
