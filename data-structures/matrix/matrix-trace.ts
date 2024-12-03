@@ -8,7 +8,7 @@ function calculateTrace(matrix: number[][]): number{
     return trace
 }
 
-const matrix = [
+const matrixing = [
     [1,2,3],
     [4,5,6],
     [7,8,9],
